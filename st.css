@@ -1,0 +1,85 @@
+.center-text {
+  text-align: center;
+}
+body {
+    font-family: 'Arial', sans-serif; /* เปลี่ยนฟอนต์ */
+    margin: 0;
+    background-color: #001c10; /* สีพื้นหลัง */
+    color: #a3ffd9;
+}
+
+header {
+    background-color: #245741; /* สีพื้นหลัง header */
+    padding: 1rem 0;
+    text-align: center;
+    color: white; /* สีตัวอักษร header */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: table; /* ปรับให้ navbar อยู่ตรงกลาง */
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* เพิ่ม transition */
+}
+
+nav a:hover {
+    background-color: #00ff95; /* เปลี่ยนสีเมื่อ hover */
+
+}
+
+main {
+    padding: 20px;
+    max-width: 960px; /* กำหนดความกว้างสูงสุด */
+    margin: 20px auto; /* จัดให้อยู่ตรงกลาง */
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: white; /* เพิ่มพื้นหลังสีขาวให้ section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+}
+
+section h2 {
+    color: #51997b; /* สีหัวข้อ */
+    border-bottom: 2px solid #d4af70; /* เส้นใต้หัวข้อ */
+    padding-bottom: 10px;
+}
+
+.item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05); /* เพิ่มเงาเล็กน้อย */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.item img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px; /* ขอบมน */
+    margin-bottom: 10px; /* เว้นระยะห่างจากข้อความ */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* เพิ่มเงาให้ภาพ */
+}
+.main-image{
+    max-width: 500px;
+    height:
